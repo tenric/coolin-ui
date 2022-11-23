@@ -1,6 +1,6 @@
 <template>
   <div>
-      <Button />
+      <Button>123</Button>
   </div>
 </template>
 <script lang="ts" setup>

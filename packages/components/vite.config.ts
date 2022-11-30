@@ -12,6 +12,7 @@ export default defineConfig(
       outDir: "es",
       //压缩
       minify: true,
+      emptyOutDir: false,
       //css分离
       //cssCodeSplit: true,
       rollupOptions: {
@@ -22,7 +23,7 @@ export default defineConfig(
           {
             format: 'es',
             //不用打包成.es.js,这里我们想把它打包成.js
-            entryFileNames: '[name].mjs',
+            entryFileNames: '[name].js',
             //让打包目录和我们目录对应
             preserveModules: true,
             exports: 'named',

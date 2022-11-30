@@ -1,10 +1,16 @@
 {
   "name": "coolin-ui",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "files": ["es", "lib"],
-  "keywords": ["coolin-ui", "vue3组件库"],
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "coolin-ui",
+    "vue3组件库"
+  ],
   "author": "tenric",
   "license": "MIT",
   "description": "",

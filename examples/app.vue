@@ -50,3 +50,9 @@
 <script lang="ts" setup>
 import { Button } from 'coolin-ui'
 </script>
+
+<style lang="less">
+.k-button {
+    margin-right: 10px;
+}
+</style>

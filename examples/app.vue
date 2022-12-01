@@ -45,14 +45,32 @@
     <Button size="medium">中等按钮</Button>
     <Button size="small">小型按钮</Button>
     <Button size="mini">超小按钮</Button>
+    <br>
+    <br>
+    <div>
+        <Icon name="fabu" />
+        <Icon name="fabu" dot />
+        <Icon name="fabu" dot badge="1" />
+        <Icon name="caozuorizhi" color="red" />
+        <Icon name="caozuorizhi" color="green" />
+        <Icon name="caozuorizhi" color="blue" />
+        <Icon name="caozuorizhi" color="yellow" />
+    </div>
+
+
   </div>
 </template>
 <script lang="ts" setup>
-import { Button } from 'coolin-ui'
+import { Button, Icon } from 'coolin-ui'
 </script>
 
 <style lang="less">
 .k-button {
     margin-right: 10px;
+}
+.coolin-icon {
+    font-size: 36px;
+    color: #666;
+    margin-right: 20px;
 }
 </style>

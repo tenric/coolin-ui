@@ -42,9 +42,9 @@ importers:
 
   examples:
     specifiers:
-      coolin-ui: workspace:^1.0.1
+      coolin-ui: workspace:^1.0.6
     dependencies:
-      coolin-ui: link:../packages/components
+      coolin-ui: link:../packages/transitpkg
 
   packages/components:
     specifiers:
